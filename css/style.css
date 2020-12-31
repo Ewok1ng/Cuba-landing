@@ -113,8 +113,8 @@
     margin: 0 auto;
 }
 
-.vacation__title {
-    margin-bottom: 22px;
+.section__title {
+    margin-bottom: 13px;
     text-align: center;
 
     font-weight: 400;
@@ -124,7 +124,7 @@
     color: #4e5665;
 }
 
-.vacation__text {
+.section__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -185,3 +185,17 @@
     line-height: 17px;
     color: #909090;
 }
+
+.history {
+    margin: 161px 0 64px;
+}
+
+.cards {
+    background-color: red;
+    margin-top: 64px;
+}
+
+.card__text {
+    font-size: 100px;
+}
+
