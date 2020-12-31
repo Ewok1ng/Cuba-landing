@@ -274,3 +274,108 @@
     border-bottom: 2px solid #ecb84c;
     border-right: 2px solid #ecb84c;
 }
+.cadillac {
+    margin-bottom: 160px;
+}
+
+.car {
+    margin: 38px 0 53px;
+}
+
+.car__container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.car__image,
+.car__shadow{
+    display: block;
+}
+
+.photo {
+    margin-bottom: 64px;
+}
+
+.photo__slider {
+    margin: 56px 0 80px;
+
+}
+
+.photo__image {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.photo__image::before {
+    display: block;
+    content: url("../img/icons/arrow.png");
+    top: 50%;
+    left: 0;
+    z-index: 5;
+}
+
+.photo__image::after {
+    content:"";
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.footer__links {
+    margin: 0 100px;
+}
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column__header {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+
+    color: #4e5665;
+}
+
+.column__item {
+    margin-bottom: 8px;
+
+}
+
+.column__item:last-child {
+    margin-bottom: 0;
+}
+
+.column__item a {
+    text-decoration: none;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #505050;
+}
+
+.column__item a:hover {
+    text-decoration: underline;
+}
+
+.column__ico {
+    padding: 12px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 32px 0 40px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #505050;
+}
